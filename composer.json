@@ -1,0 +1,19 @@
+{
+    "require": {
+        "robmorgan/phinx": "^0.12.10",
+        "psr/http-message": "^1.0",
+        "guzzlehttp/psr7": "^2.3",
+        "symfony/console": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/",
+            "Console\\": "console/"
+        },
+        "files": [
+            "routes/routes.php",
+            "core/globals/functions.php"
+        ]
+    }
+}
